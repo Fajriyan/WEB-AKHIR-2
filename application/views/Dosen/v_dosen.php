@@ -114,11 +114,8 @@
           <nav class="nav navbar-nav">
             <ul class=" navbar-right">
               <li class="nav-item dropdown open" style="padding-left: 15px;">
-                <input style="border-radius: 3px; border: none; height: 23px;" type="text" placeholder="Masukkan Username">
-                <input style="border-radius: 3px; border: none; height: 23px;" type="password" placeholder="Masukkan Password">
 
-                <input style="border-radius: 4px; border: none; height: 23px; color: white; background: #2A3F54;" type="button" value="LOGIN">
-                <a href="<?= base_url('index.php/main/dosen') ?>"><input style="border-radius: 3px; border: none; height: 23px; color: white; background: #2A3F54;" type="button" value="DOSEN"></a>
+                <a href="<?= base_url('index.php/main/') ?>"><input style="border-radius: 3px; border: none; height: 23px; color: white; background: #2A3F54;" type="button" value="MAHASISWA"></a>
 
                 <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                   <img src="images/img.jpg" alt=""> <?php echo $nama_user; ?>
